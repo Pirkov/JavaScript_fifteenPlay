@@ -1,0 +1,130 @@
+body {
+    background: linear-gradient(rgba(178, 6, 6, 0.79), rgba(12, 66, 227, 0.56));
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    align-items: center;
+    user-select: none;
+    height: 600px;
+}
+
+.workOne {
+    margin-left: 200px;
+}
+
+.workOne, .workTwo, .workThree, .workFour {
+    width: 135px;
+    height: 600px;
+}
+
+#new_name {
+    width: 260px;
+}
+
+li {
+    font-size: 80px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 3px 6px rgba(24, 23, 23, 0.42);
+}
+
+#showResult {
+    width: 350px;
+    height: 120px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 3px 6px rgba(24, 23, 23, 0.42);
+    background: conic-gradient(at 15% 40%, lightblue 20%, yellow 40%, #1e90ff 50%);
+    display: block;
+    box-shadow: 10px 15px rgba(24, 23, 23, 0.76);
+    border-radius: 20px;
+    margin-top: 20px;
+    cursor: none;
+}
+
+.button, .result {
+    width: 350px;
+    height: 120px;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    text-shadow: 3px 6px rgba(24, 23, 23, 0.42);
+    background: conic-gradient(at 15% 40%, lightblue 20%, yellow 40%, #1e90ff 50%);
+    box-shadow: 10px 15px rgba(24, 23, 23, 0.76);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.result {
+    cursor: none;
+}
+
+h2 {
+    text-shadow: 3px 2px lemonchiffon;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 0;
+    height: 100px;
+    text-align: center;
+}
+
+.color-zero {
+    text-shadow: none;
+    background: conic-gradient(at 10% 20%, lightblue 20%, yellow 40%, #1e90ff 50%);
+}
+
+.drag-list {
+    padding: 0;
+    list-style: none;
+}
+
+.drag-item {
+    padding: 8px;
+    margin: 20px 0;
+    background: conic-gradient(at 10% 20%, lightblue 20%, yellow 40%, #1e90ff 50%);
+    height: 100px;
+    width: 100px;
+    border: 2px solid wheat;
+    border-radius: 15px;
+    box-shadow: 10px 15px rgba(24, 23, 23, 0.76);
+    cursor: move;
+}
+
+.submit {
+    background: conic-gradient(at 10% 20%, lightblue 20%, yellow 40%, #1e90ff 50%);
+    box-shadow: 3px 5px rgba(24, 23, 23, 0.76);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.play {
+    height: 500px;
+}
+
+.drag-over {
+    border: 2px dotted #333;
+    background: transparent;
+}
+
+.brand {
+    background-image: url("image/PA.jpg");
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    align-self: flex-end;
+    margin-left: 150px;
+    cursor: none;
+
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
